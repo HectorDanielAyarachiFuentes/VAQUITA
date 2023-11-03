@@ -27,9 +27,98 @@
 
   <section id="experiencia">
     <h2>Experiencia Laboral</h2>
-    <p>Amplia experiencia en la gestión de procesos de selección, evaluación de desempeño y desarrollo de programas de
-      retención de talento.</p>
+    <p>Amplia experiencia en la gestión de procesos de selección, evaluación de desempeño y desarrollo de programas de retención de talento.</p>
+
+    <div class="experiencia-container">
+      <article>
+        <h3>Cargo 1</h3>
+        <p>Descripción del trabajo en el Cargo 1.</p>
+        <p>Fecha de inicio - Fecha de finalización (si aplica)</p>
+      </article>
+
+      <article>
+        <h3>Cargo 2</h3>
+        <p>Descripción del trabajo en el Cargo 2.</p>
+        <p>Fecha de inicio - Fecha de finalización (si aplica)</p>
+      </article>
+
+      <article>
+        <h3>Cargo 3</h3>
+        <p>Descripción del trabajo en el Cargo 3.</p>
+        <p>Fecha de inicio - Fecha de finalización (si aplica)</p>
+      </article>
+    </div>
   </section>
+    <style>
+/* Estilos para la sección de experiencia */
+#experiencia {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+#experiencia h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#experiencia p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Estilos para los elementos article */
+.experiencia-container {
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+article h3 {
+  font-size: 18px;
+  color: #0077b6;
+}
+
+article p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Consulta de medios para hacerlo responsive */
+@media screen and (max-width: 768px) {
+  .experiencia-container {
+    flex-direction: column; /* Cambia a diseño de columna en dispositivos móviles */
+  }
+
+  #experiencia h2 {
+    font-size: 20px;
+  }
+
+  /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+  @media screen and (max-width: 320px) {
+    #experiencia h2 {
+      font-size: 50px;
+    }
+
+    article h3 {
+      font-size: 40px;
+    }
+
+    article p {
+      font-size: 40px;
+    }
+  }
+}
+
+
+    </style>
+  
 
   <section id="educacion">
     <h2>Educación</h2>
